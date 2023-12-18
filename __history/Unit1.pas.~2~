@@ -63,7 +63,7 @@ begin
 
       except
         on Exception: EConvertError do
-          ShowMessage('Check if all coefficients are entered correctly');
+          ShowMessage('Неверно введен один из коэффициентов');
       end;
   finally
     x2Coef.Clear;
